@@ -6,6 +6,8 @@ team-project-the-over-under created by GitHub Classroom
 ### Team Members: 
 - Ben Cimini
 - Blair Bowen
+- Josh Dickens
 - Josh McKettrick
+- Sunny He
 
 ## Formal Proposal:
