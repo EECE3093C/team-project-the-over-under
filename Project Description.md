@@ -1,5 +1,9 @@
 ## Sprint 20230215
 
+### Testing Commits to User Branch
+Hello, my name is Ben Cimini and my user branch is denoted ciminibb. I am writing this blurb so
+that I can try to commit it from VS Code. Hopefully it works!
+
 ### Core Features
 - Aggregator: best lines for a league by gameweek.
 - Assistant: results filtered by desired bet amount/returns.
