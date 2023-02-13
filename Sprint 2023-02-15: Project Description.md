@@ -1,49 +1,21 @@
-# Sprint 2023-02-15
+# Sprint 2023-02-15: Project Description
 
-### Vision
-- Describe the top-level objectives, differentiators, target customers, and scope of your
-product.
-1. 
-- What is your product (high-level view)?
-1. sport enjoyers 
-2. beginner and extperienced gambling addicts
-3. 21+
-- Whom is it for?
-1. someone who wants to improve 
-2. make money 
-- What problem does it solve?
-1. unstandardized odds
-2. time saver
-3. 'accountability' for companies
-4. safest way to ensure best bet
-- What alternatives are available, who are your competitors?
-1. sportsbooks
-2. no major market competion in this direct area
-- What is novel in your approach, that is why is this project compelling and worth
-developing?
-1. talk about things that are SIMILAR, not the same
+## Vision
+When designing ***The Over-Under application***, we had to put ourselves in our user’s position. We asked ourselves, what do we have problems with when placing online sports bets? What problems have we grown accustomed to, and how can we improve on them?
 
-### Software Architecture
-- Make it clear that the system can be built, making good use of the available resources
-and technology.
-1. webscrape python, javascript UI, SQL data storage
-- Describe at a very high level the system's architecture, identifying the components/
-modules that will interact.
-1. refer to ppt (w a picture too)
-- Describe the specific data you will access/store.
-1. Webscraping moneylines, result, websites, team name
-- What languages/toolkits do you intend to use for the
-development?
-1. Python, SQL (sql socket from SQL to py), 'selenium' plugin, javascript*
+The biggest problem we face when betting online, is finding the best **moneyline<sup>1</sup>** odds. With so many different betting websites being created, not all **sportsbooks<sup>2</sup>** can be identical. Thus, there becomes inconsistency where a better could have won more money if they placed the same bet on a different website. We decided to design a feature that will take data from major online sportsbooks, and congregate them into an organized list where you, the user, can see where to place your bet.
 
-### Challenges and Risks
-- What is the single most serious challenge you see in developing the product on
-schedule?
-1. interaction between 3 stages
-2. inexperience
-3. trial and error
-- How will you minimize or mitigate the risk?
-1. more meetings
-2. additional study
-3. achievable sprints (scheduling)
-4. task delegation and sticking to strengths among team
+We not only aim to improve the accuracy of your bet, but the efficiency. Many sports betters will have several accounts logged in on multiple tabs in their browser and will flip between tabs searching for the information they need. In our application we will not only have options to sort through these databases using filters, but it will also give users instant appraisals once their predetermined budget and bet is selected. This reduces the time spent by the better significantly, as many online websites hold bets in a physical queue in-case you were to place the bet through their site. They clearly need the additional security as their site accepts bets but here, we want to see what the user can win instantly.
+
+The application is designed to pull and organize data, so the application spans from beginner to experienced sports betters. The application will allow the user to make the most profitable, and safest bet based on real-time data from major sportsbooks.
+
+**Moneyline<sup>1</sup>**: a bet on which team will win a game.
+
+**Sportsbook<sup>2</sup>**: an establishment that takes bets on sporting events and pays out winnings.
+
+
+## Software Architecture
+
+
+## Challenges and Risks
+
