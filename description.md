@@ -16,6 +16,25 @@ From here, we will move that data into an SQL database using [**SQL Socket<sup>5
 
 Finally, we will use an application builder called [**Electron<sup>6</sup>**](https://www.electronjs.org/). Electron uses a javascript back-end to allow us to create a desktop application and user interface for our program.
 
+```mermaid
+graph LR
+  A((Internet))
+  B((SQL Database))
+  C((Javascript UI))
+  D{Python}
+  E{Node.js}
+  A --->|Web scrapping| D
+  D --->|Weekly lines, results| B
+  B --->|Queries| E
+  E --->|Weekly lines, results| C
+  A --->|API calls| E
+  E --->|Live updates| C
+  
+  linkStyle 0,1 stroke-width:2px,fill:none,stroke:green;
+  linkStyle 2,3 stroke-width:2px,fill:none,stroke:blue;
+  linkStyle 4,5 stroke-width:2px,fill:none,stroke:red;
+```
+
 ## Challenges and Risks
 All members on this project agree the hardest part of our design will be getting each stage in our three-stage system to interact with one another. Many of us have the knowledge to do a project like this one, but we haven’t put it into practice. We are all very inexperienced when it comes to this style of project, and we recognize the additional effort that needs to be put in with something new. This may result in additional unscheduled meetings, trial and error with software, and studies unrelated to class work. 
 
