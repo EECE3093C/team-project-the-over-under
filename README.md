@@ -30,9 +30,9 @@ graph LR
   E --->|Weekly lines, results| C
   C --->|Update requests| E
   
-  linkStyle 0,1 stroke-width:5px,fill:none,stroke:green;
-  linkStyle 2,3 stroke-width:5px,fill:none,stroke:green;
-  linkStyle 4,5 stroke-width:5px,fill:none,stroke:green;
+  linkStyle 0,1 stroke-width:4px,fill:none,stroke:green;
+  linkStyle 2,3 stroke-width:4px,fill:none,stroke:green;
+  linkStyle 4,5 stroke-width:4px,fill:none,stroke:green;
 ```
 
 ## Challenges and Risks
