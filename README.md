@@ -14,25 +14,25 @@ Our design is based on a three-part system. The first being collecting data via 
 
 From here, we will move that data into an SQL database using [**SQL Socket<sup>5</sup>**](https://sqlsocket.com/) to convert from Python to SQL, where we can temporarily store the data collected from each sportsbook URL. We will begin by collecting match history, moneyline odds, team names, etc. Then our program will take this raw data and neatly organize it based on user inputs.
 
-Finally, we will use an application builder called [**Electron<sup>6</sup>**](https://www.electronjs.org/). Electron uses a javascript back-end to allow us to create a desktop application and user interface for our program.
+Finally, we will use an application builder called [**Electron<sup>6</sup>**](https://www.electronjs.org/). Electron uses a javascript back-end through [**Node.js<sup>7<sup>**](https://nodejs.org/en/) to allow us to create a desktop application and user interface for our program. In Node.js, we will create a REST API to interact with our SQL database. The user will log in, our Node.js API will request a query from the SQL database, and SQL will push that database through Node.js to Electron. Where we can finally format the data requested into a user interface. This loop will occur any time new data is requested by the user, while python constantly feeds data into the database when the application is lauched.
 
 ```mermaid
 graph LR
   A((Internet))
   B((SQL Database))
-  C((Javascript UI))
+  C((Electron))
   D{Python}
   E{Node.js}
   A --->|Web scrapping| D
   D --->|Weekly lines, results| B
   B --->|Queries| E
+  E --->|Query Requests| B
   E --->|Weekly lines, results| C
-  A --->|API calls| E
-  E --->|Live updates| C
+  C --->|Update requests| E
   
-  linkStyle 0,1 stroke-width:2px,fill:none,stroke:green;
-  linkStyle 2,3 stroke-width:2px,fill:none,stroke:blue;
-  linkStyle 4,5 stroke-width:2px,fill:none,stroke:red;
+  linkStyle 0,1 stroke-width:5px,fill:none,stroke:green;
+  linkStyle 2,3 stroke-width:5px,fill:none,stroke:green;
+  linkStyle 4,5 stroke-width:5px,fill:none,stroke:green;
 ```
 
 ## Challenges and Risks
@@ -52,6 +52,6 @@ With some experience from previous co-op rotations, some of us have developed sk
 
 **SQL Socket<sup>5</sup>**: A program designed for users to input data of different data types into SQL.
 
-**Electron<sup>6</sup>**: An application builder and publisher, powered by [**Node.js<sup>7<sup>**](https://nodejs.org/en/), designed for users to configure desktop application.
+**Electron<sup>6</sup>**: An application builder and publisher, powered by **Node.js<sup>7<sup>**, designed for users to configure desktop application.
   
 **Node.js<sup>7<sup>**:  A cross-platform, open-source server environment with a back-end JavaScript runtime environment. Node.js runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.
