@@ -1,7 +1,7 @@
 # Sprint 2023-02-15: Project Description
 
 ## Vision
-When designing ***The Over-Under application***, we had to put ourselves in our user’s position. We asked ourselves, what do we have problems with when placing online sports bets? What problems have we grown accustomed to, and how can we improve on them?
+When designing ***The Over-Under*** application, we had to put ourselves in our user’s position. We asked ourselves, what do we have problems with when placing online sports bets? What problems have we grown accustomed to, and how can we improve on them?
 
 The biggest problem we face when betting online, is finding the best **moneyline<sup>1</sup>** odds. With so many different betting websites being created, not all **sportsbooks<sup>2</sup>** can be identical. Thus, there becomes inconsistency where a better could have won more money if they placed the same bet on a different website. We decided to design a feature that will take data from major online sportsbooks, and congregate them into an organized list where you, the user, can see where to place your bet.
 
