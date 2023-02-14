@@ -14,7 +14,7 @@ Our design is based on a three-part system. The first being collecting data via 
 
 From here, we will move that data into an SQL database using [**SQL Socket<sup>5</sup>**](https://sqlsocket.com/) to convert from Python to SQL, where we can temporarily store the data collected from each sportsbook URL. We will begin by collecting match history, moneyline odds, team names, etc. Then our program will take this raw data and neatly organize it based on user inputs.
 
-Finally, we can use SQL Socket again to convert our code back to Python. We do this to send update queries from Python code to a [**Javascript<sup>6</sup>**](https://www.javascript.com/) user interface, where the user will see the data organized in tables. 
+Finally, we will use an application builder called [**Electron<sup>6</sup>**](https://www.electronjs.org/). Electron uses a javascript back-end to allow us to create a desktop application and user interface for our program.
 
 ## Challenges and Risks
 All members on this project agree the hardest part of our design will be getting each stage in our three-stage system to interact with one another. Many of us have the knowledge to do a project like this one, but we haven’t put it into practice. We are all very inexperienced when it comes to this style of project, and we recognize the additional effort that needs to be put in with something new. This may result in additional unscheduled meetings, trial and error with software, and studies unrelated to class work. 
@@ -33,4 +33,6 @@ With some experience from previous co-op rotations, some of us have developed sk
 
 **SQL Socket<sup>5</sup>**: A program designed for users to input data of different data types into SQL.
 
-**Javascript<sup>6</sup>**: A scripting language that enables you to create dynamically updating content, control multimedia, animate images, any many more.
+**Electron<sup>6</sup>**: An application builder and publisher, powered by [**Node.js<sup>7<sup>**](https://nodejs.org/en/), designed for users to configure desktop application.
+  
+**Node.js<sup>7<sup>**:  A cross-platform, open-source server environment with a back-end JavaScript runtime environment. Node.js runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.
