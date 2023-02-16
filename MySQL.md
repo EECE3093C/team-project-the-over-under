@@ -23,6 +23,6 @@ Source: [MySQL Tutorial for Beginners](https://www.youtube.com/watch?v=7S_tz1z_5
 
 ### Topics for Further Research
 
-- Set up a custom server
+- Hosting data remotely
 - Specify relationships
 - More on the commands for creating databases and tables
