@@ -62,6 +62,55 @@ SELECT columns FROM table ORDER BY columns;
 - Each column in the ORDER BY can be sorted differently.
 - Data can be sorted by an alias.
 
+### Inner JOINs
+
+SELECT columns FROM table JOIN table ON conditions;
+
+- Ambiguous columns, those that exist in either table, must be prefixed with the name of their table.
+- Table names aliased by first letter, as convention.
+- You can join across multiple databases by adding an extra layer to the dot operator chain (e.g., database.table.column).
+- Tables can be joined with themselves, but each instance must be given a different alias. Otherwise the syntax is about the same.
+- JOINs can be chained to join several tables at the same time, this is common.
+- Compound conditions can be used to represent composite primary keys, among other things. These are made as typical compound boolean statements.
+- Implicit join syntax allows for omitting JOIN in lieu of commas. Avoid this, it's dangerous.
+- Natural JOINs are done without specifying column names, common columns are used. Once again, this is dangerous.
+
+### Outer JOINs
+
+SELECT columns FROM table LEFT/RIGHT JOIN table ON conditions;
+
+- In SQL, there are LEFT and RIGHT JOINs.
+- LEFT JOIN will return all records from the left table, regardless of the condition.
+- RIGHT JOIN will return all records from the right table, regardless of the condition.
+- Only the speficied unmatched records will be returned. That is, in a LEFT JOIN, unmatched records in the right table won't be returned.
+- Outer joins can still be chained for several tables. In these chains, outer and inner joins can be mixed.
+- As a best practice, avoid using right joins. Keeping the direction consistent will make code more readable.
+- Outer joins can also be done on self.
+
+### The USING Clause
+
+SELECT columns FROM table JOIN table USING (columns);
+
+- USING is syntax for the simplification of join conditions.
+- It does the same job as an equality comparison between columns of different tables.
+- Columns must have the same name in either table for it to work.
+
+### Cross JOINs
+
+SELECT columns FROM table CROSS JOIN table;
+
+- Every record from one table joins every record from another.
+- There are no conditions.
+- This is sometimes referred to as the cartesian product between tables. It can be used to yield all possible combinations.
+- Again, implicit syntax can be used here.
+
+### UNIONs
+
+query UNION query
+
+- Combine data from multiple queries by row.
+- The quieries involved don't have to be against the same table.
+
 ## Addendum
 
 ### Topics for Further Research
