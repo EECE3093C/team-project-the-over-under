@@ -40,6 +40,13 @@ All members on this project agree the hardest part of our design will be getting
 
 We are trying to mitigate these challenges by focusing on setting realistic goals for the duration of our sprints. With some experience from previous co-op rotations, some of us have developed skills in areas that others have none in. During our meetings we were honest in our weaknesses, which allowed us to concentrate on delegating tasks based on where we felt comfortable. 
 
+## List of Sportsbooks
+1. [DraftKings](https://sportsbook.draftkings.com/)
+2. [FanDuel](https://sportsbook.fanduel.com/)
+3. [Bet365](https://www.oh.bet365.com/)
+4. [PointsBet](https://oh.pointsbet.com/)
+5. [BetMGM](https://sports.oh.betmgm.com/)
+
 [^1]: A bet on which team will win a game.
 
 [^2]: An establishment that takes bets on sporting events and pays out winnings.
