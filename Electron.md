@@ -38,9 +38,7 @@ output: v23.1.0
 
 ```
 
-Notice, a package.json file is created in your project.
-
-### Note: you will have to create a 'main.js' file in the project, and a renderer folder with a file called 'index.html'
+Notice, a package.json file is created in your project. This project now has electron embedded into it.
 
 
 
