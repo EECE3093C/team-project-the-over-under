@@ -12,6 +12,9 @@ input: node -v
 output: v18.14.2
 
 ```
+## Capability
+
+## Syntax
 
 ## Creating a .json file
 Run the following command in your Microsoft Visual Studio Code terminal:
