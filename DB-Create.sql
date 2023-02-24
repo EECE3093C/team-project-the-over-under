@@ -59,4 +59,4 @@ VALUES
 ('FanDuel', 'https://www.fanduel.com/'),
 ('bet365', 'https://www.oh.bet365.com/?_h=gNkRA335CIkgWRZEjMPltQ%3D%3D#/HO/'),
 ('PointsBet', 'https://oh.pointsbet.com/'),
-('BetMGM', 'https://sports.oh.betmgm.com/en/sports')
+('BetMGM', 'https://sports.oh.betmgm.com/en/sports');
