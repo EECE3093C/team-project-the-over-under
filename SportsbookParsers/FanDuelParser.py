@@ -18,4 +18,5 @@ for i in naughtindex:
         lines[i][:-1], 
         lines[i+1][:-1], 
         lines[i+2][:-1]))
+    
         
