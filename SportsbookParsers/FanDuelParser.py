@@ -8,7 +8,6 @@ naughtindex = []
 for i in lines:
     if current + 2 < index and re.search("^([+]|[-])", i) != None:
         current = index
-        # print(i[:-1], index, current)
         naughtindex.append(index)
     index += 1
 
