@@ -111,10 +111,41 @@ query UNION query
 - Combine data from multiple queries by row.
 - The quieries involved don't have to be against the same table.
 
+## bit.io
+
+Source: [bit.io Docs](https://docs.bit.io/docs)
+
+### Getting Started
+
+- Fast and easy way to set up a PostgreSQL database.
+- Compatible with Node.js (or any tool that uses Postgres)!
+- Sign-up required, but free.
+- Database can be made public or shared with other users.
+- Free databases are limited to 3GB, this shouldn't be an issue for us.
+- Data can be uploaded from a CSV file.
+- Markdown documentation can be added to database tables.
+- Query results are downloadable.
+- Credentials needed for connecting to a SQL client are in the "Connect" menu on the database page.
+- Using an API key, the password from "Connect" menu, a POST request can query any database table you have access to.
+
+### Connecting with VS Code
+
+- Install the PostgreSQL extension.
+- Add new connection from SQLTools, select PostgreSQL.
+- All details needed are in database "Connect" menu.
+- SSL must be enabled.
+- Once complete, you can write and execute queries from a .sql file.
+
+### PostgreSQL Syntax
+
+Much of this document describes SQL per MySQL syntax. PostgreSQL is different, if only slightly. See the following guide: [PostgreSQL Crash Course](https://docs.bit.io/docs/sql-crash-course).
+
+### Querying from Node.js
+
+I'll save the in-depth research on this for later. In the meantime, see [node-postgres](https://node-postgres.com/).
+
 ## Addendum
 
 ### Topics for Further Research
 
-- Hosting data remotely
-- Specify relationships
 - More on the commands for creating databases and tables
