@@ -111,6 +111,34 @@ query UNION query
 - Combine data from multiple queries by row.
 - The quieries involved don't have to be against the same table.
 
+## Creating Databases and Tables
+
+Source: me
+
+### Database
+
+Example
+
+```sql
+CREATE DATABASE mainline
+```
+
+### Table
+
+Example
+
+```sql
+CREATE TABLE moneylines (
+  moneyline INT NOT NULL AUTO_INCREMENT,
+  odds SMALLINT NOT NULL,
+  contestant VARCHAR(30) NOT NULL,
+  sportsbook VARCHAR(30) NOT NULL,
+  PRIMARY KEY (moneyline),
+  FOREIGN KEY (contestant) REFERENCES contestants(contestant),
+  FOREIGN KEY (sportsbook) REFERENCES sportsbooks(sportsbook)
+)
+```
+
 ## bit.io
 
 Source: [bit.io Docs](https://docs.bit.io/docs)
@@ -144,8 +172,25 @@ Much of this document describes SQL per MySQL syntax. PostgreSQL is different, i
 
 I'll save the in-depth research on this for later. In the meantime, see [node-postgres](https://node-postgres.com/).
 
+## Amazon RDS
+
+Source: [Amazon RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html)
+
+### Comment
+The Amazon RDS documentation is very hard to follow. As you'll see, the section below is pretty esoteric. This is one reason I'm leaning toward bit.io for
+database hosting, it should be suitable for one as small as ours.
+
+### Creating and connecting to a MySQL DB instance
+
+- There are "Easy create" and "Standard create" options. Easy uses defaults, standard allows more configuration options (including making a public DB).
+- As prerequisites, one must sign up for an AWS account and create an admin user.
+- Create a MySQL DB instance in the AWS Management Console.
+- Create an EC2 instance in the same VPC as the DB instance.
+- Connect EC2 and MySQL DB instance automatically.
+- Connect to the MySQL DB instance from a client.
+
 ## Addendum
 
 ### Topics for Further Research
 
-- More on the commands for creating databases and tables
+- None for now!
