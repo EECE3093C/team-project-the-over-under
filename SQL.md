@@ -1,4 +1,4 @@
-# MySQL Research
+# SQL Research
 
 ## General
 
