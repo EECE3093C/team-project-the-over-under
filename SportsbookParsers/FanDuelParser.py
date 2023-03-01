@@ -1,6 +1,6 @@
 import re
 
-file = open("C:\\Users\\15136\Documents\\fanduelhtml.txt")
+file = open("../PLOddsFanDuel.txt")
 lines = file.readlines()
 index = 0
 current = 0
