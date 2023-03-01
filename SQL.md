@@ -1,4 +1,4 @@
-# MySQL Research
+# SQL Research
 
 ## General
 
@@ -111,10 +111,86 @@ query UNION query
 - Combine data from multiple queries by row.
 - The quieries involved don't have to be against the same table.
 
+## Creating Databases and Tables
+
+Source: me
+
+### Database
+
+Example
+
+```sql
+CREATE DATABASE mainline
+```
+
+### Table
+
+Example
+
+```sql
+CREATE TABLE moneylines (
+  moneyline INT NOT NULL AUTO_INCREMENT,
+  odds SMALLINT NOT NULL,
+  contestant VARCHAR(30) NOT NULL,
+  sportsbook VARCHAR(30) NOT NULL,
+  PRIMARY KEY (moneyline),
+  FOREIGN KEY (contestant) REFERENCES contestants(contestant),
+  FOREIGN KEY (sportsbook) REFERENCES sportsbooks(sportsbook)
+)
+```
+
+## bit.io
+
+Source: [bit.io Docs](https://docs.bit.io/docs)
+
+### Getting Started
+
+- Fast and easy way to set up a PostgreSQL database.
+- Compatible with Node.js (or any tool that uses Postgres)!
+- Sign-up required, but free.
+- Database can be made public or shared with other users.
+- Free databases are limited to 3GB, this shouldn't be an issue for us.
+- Data can be uploaded from a CSV file.
+- Markdown documentation can be added to database tables.
+- Query results are downloadable.
+- Credentials needed for connecting to a SQL client are in the "Connect" menu on the database page.
+- Using an API key, the password from "Connect" menu, a POST request can query any database table you have access to.
+
+### Connecting with VS Code
+
+- Install the PostgreSQL extension.
+- Add new connection from SQLTools, select PostgreSQL.
+- All details needed are in database "Connect" menu.
+- SSL must be enabled.
+- Once complete, you can write and execute queries from a .sql file.
+
+### PostgreSQL Syntax
+
+Much of this document describes SQL per MySQL syntax. PostgreSQL is different, if only slightly. See the following guide: [PostgreSQL Crash Course](https://docs.bit.io/docs/sql-crash-course).
+
+### Querying from Node.js
+
+I'll save the in-depth research on this for later. In the meantime, see [node-postgres](https://node-postgres.com/).
+
+## Amazon RDS
+
+Source: [Amazon RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html)
+
+### Comment
+The Amazon RDS documentation is very hard to follow. As you'll see, the section below is pretty esoteric. This is one reason I'm leaning toward bit.io for
+database hosting, it should be suitable for one as small as ours.
+
+### Creating and connecting to a MySQL DB instance
+
+- There are "Easy create" and "Standard create" options. Easy uses defaults, standard allows more configuration options (including making a public DB).
+- As prerequisites, one must sign up for an AWS account and create an admin user.
+- Create a MySQL DB instance in the AWS Management Console.
+- Create an EC2 instance in the same VPC as the DB instance.
+- Connect EC2 and MySQL DB instance automatically.
+- Connect to the MySQL DB instance from a client.
+
 ## Addendum
 
 ### Topics for Further Research
 
-- Hosting data remotely
-- Specify relationships
-- More on the commands for creating databases and tables
+- None for now!
