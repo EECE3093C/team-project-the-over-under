@@ -1,5 +1,7 @@
 # Meeting Notes
 
+Picking up from week of 02/27, earlier meetings not recorded.
+
 ## 03/01
 
 ### Bot Detection
