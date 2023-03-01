@@ -1,6 +1,6 @@
 import re
 
-file = open("../PLOddsFanDuel.txt")
+file = open("PLOddsFanDuel.txt")
 lines = file.readlines()
 index = 0
 current = 0
