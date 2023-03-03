@@ -4,49 +4,33 @@ LOG IN
 SIGN UP
 MY BETS
 ENGLISH PREMIER LEAGUE
-24 GAMES / 2568 WAGERS
-Arsenal v Everton
-English Premier LeagueToday, 2:45pm
-LIVE
-62 Wagers
-Arsenal
-3
-Everton
-0
-Liverpool v Wolves
-English Premier LeagueToday, 3:00pm
-LIVE
-72 Wagers
-Liverpool
-0
-Wolves
-0
+22 GAMES / 2632 WAGERS
 Man City v Newcastle
-English Premier LeagueSat Mar 4th, 7:30am
-2d 15h
-154 Wagers
+English Premier LeagueTomorrow, 7:30am
+15h 48m
+170 Wagers
 MATCH RESULT
 Man City
--240
+-200
 Draw
-+375
++330
 Newcastle
-+600
++500
 Arsenal v Bournemouth
-English Premier LeagueSat Mar 4th, 10:00am
-2d 17h
-138 Wagers
+English Premier LeagueTomorrow, 10:00am
+18h 18m
+171 Wagers
 MATCH RESULT
 Arsenal
--450
+-500
 Draw
 +550
 Bournemouth
-+1200
++1300
 Aston Villa v Crystal Palace
-English Premier LeagueSat Mar 4th, 10:00am
-2d 17h
-152 Wagers
+English Premier LeagueTomorrow, 10:00am
+18h 18m
+166 Wagers
 MATCH RESULT
 Aston Villa
 +100
@@ -55,9 +39,9 @@ Draw
 Crystal Palace
 +300
 Chelsea v Leeds
-English Premier LeagueSat Mar 4th, 10:00am
-2d 17h
-161 Wagers
+English Premier LeagueTomorrow, 10:00am
+18h 18m
+175 Wagers
 MATCH RESULT
 Chelsea
 -160
@@ -66,9 +50,9 @@ Draw
 Leeds
 +450
 Brighton v West Ham
-English Premier LeagueSat Mar 4th, 10:00am
-2d 17h
-152 Wagers
+English Premier LeagueTomorrow, 10:00am
+18h 18m
+167 Wagers
 MATCH RESULT
 Brighton
 -130
@@ -77,9 +61,9 @@ Draw
 West Ham
 +350
 Wolves v Tottenham
-English Premier LeagueSat Mar 4th, 10:00am
-2d 17h
-138 Wagers
+English Premier LeagueTomorrow, 10:00am
+18h 18m
+170 Wagers
 MATCH RESULT
 Wolves
 +230
@@ -88,9 +72,9 @@ Draw
 Tottenham
 +120
 Southampton v Leicester
-English Premier LeagueSat Mar 4th, 12:30pm
-2d 20h
-161 Wagers
+English Premier LeagueTomorrow, 12:30pm
+20h 48m
+176 Wagers
 MATCH RESULT
 Southampton
 +165
@@ -100,8 +84,8 @@ Leicester
 +165
 Nottm Forest v Everton
 English Premier LeagueSun Mar 5th, 9:00am
-3d 16h
-109 Wagers
+1d 17h
+172 Wagers
 MATCH RESULT
 Nottm Forest
 +165
@@ -111,29 +95,29 @@ Everton
 +185
 Liverpool v Man Utd
 English Premier LeagueSun Mar 5th, 11:30am
-3d 19h
-79 Wagers
+1d 19h
+178 Wagers
 MATCH RESULT
 Liverpool
-+145
++135
 Draw
 +260
 Man Utd
-+165
++185
 Brentford v Fulham
 English Premier LeagueMon Mar 6th, 3:00pm
-4d 22h
-96 Wagers
+2d 23h
+155 Wagers
 MATCH RESULT
 Brentford
-+100
+-105
 Draw
-+250
++260
 Fulham
 +260
 Bournemouth v Liverpool
 English Premier LeagueSat Mar 11th, 7:30am
-9d 15h
+7d 15h
 78 Wagers
 MATCH RESULT
 Bournemouth
@@ -144,7 +128,7 @@ Liverpool
 -210
 Leicester v Chelsea
 English Premier LeagueSat Mar 11th, 10:00am
-9d 17h
+7d 18h
 78 Wagers
 MATCH RESULT
 Leicester
@@ -155,7 +139,7 @@ Chelsea
 -107
 Leeds v Brighton
 English Premier LeagueSat Mar 11th, 10:00am
-9d 17h
+7d 18h
 78 Wagers
 MATCH RESULT
 Leeds
@@ -166,7 +150,7 @@ Brighton
 +110
 Everton v Brentford
 English Premier LeagueSat Mar 11th, 10:00am
-9d 17h
+7d 18h
 77 Wagers
 MATCH RESULT
 Everton
@@ -177,7 +161,7 @@ Brentford
 +175
 Tottenham v Nottm Forest
 English Premier LeagueSat Mar 11th, 10:00am
-9d 17h
+7d 18h
 78 Wagers
 MATCH RESULT
 Tottenham
@@ -188,7 +172,7 @@ Nottm Forest
 +550
 Crystal Palace v Man City
 English Premier LeagueSat Mar 11th, 12:30pm
-9d 20h
+7d 20h
 77 Wagers
 MATCH RESULT
 Crystal Palace
@@ -199,7 +183,7 @@ Man City
 -300
 Man Utd v Southampton
 English Premier LeagueSun Mar 12th, 10:00am
-10d 16h
+8d 17h
 77 Wagers
 MATCH RESULT
 Man Utd
@@ -210,7 +194,7 @@ Southampton
 +700
 Fulham v Arsenal
 English Premier LeagueSun Mar 12th, 10:00am
-10d 16h
+8d 17h
 78 Wagers
 MATCH RESULT
 Fulham
@@ -221,7 +205,7 @@ Arsenal
 -170
 West Ham v Aston Villa
 English Premier LeagueSun Mar 12th, 10:00am
-10d 16h
+8d 17h
 78 Wagers
 MATCH RESULT
 West Ham
@@ -232,7 +216,7 @@ Aston Villa
 +260
 Newcastle v Wolves
 English Premier LeagueSun Mar 12th, 12:30pm
-10d 19h
+8d 19h
 78 Wagers
 MATCH RESULT
 Newcastle
@@ -243,8 +227,8 @@ Wolves
 +350
 Brighton v Crystal Palace
 English Premier LeagueWed Mar 15th, 3:30pm
-13d 22h
-92 Wagers
+11d 22h
+78 Wagers
 MATCH RESULT
 Brighton
 -170
@@ -254,8 +238,8 @@ Crystal Palace
 +475
 Southampton v Brentford
 English Premier LeagueWed Mar 15th, 3:30pm
-13d 22h
-91 Wagers
+11d 22h
+77 Wagers
 MATCH RESULT
 Southampton
 +175
@@ -265,26 +249,26 @@ Brentford
 +150
 NEXT UP
 TODAY
-Martinez, LD/Romboli, F v Seyboth Wild, T/Soto, M
-5m 04s
-Watson, H v Stephens, S
-10m 04s
-Cecchinato, M v Monteiro, T
-15m 04s
-Rakhimova, K v Bonaventure, Y
-40m 04s
-Han, X/Marozava, L v Christian, K/Santamaria, S
-40m 04s
-Hidalgo, D/Rodriguez, C v Cabral, F/Cacic, N
-5:30pm
-Krueger, A/Montgomery, R v Neel, I/Tjandramulia, O
-5:30pm
-NCAAB Conference Tournaments 2023
+Kalinskaya, A v Collins, D
+18m 17s
+Portuguese Primeira Liga 2022/23 Outrights
+33m 17s
+Benfica v Famalicão
+33m 17s
+Munar, J v Monteiro, T
+38m 17s
+Bonaventure, Y v Vekic, D
+5:00pm
+Citadel Bulldogs @ Mercer Bears
+5:00pm
+Martinez, P/Munar, J v Seyboth Wild, T/Soto, M
 6:00pm
-Charleston Southern Buccaneers @ High Point Panthers
+Toledo Rockets @ Ball State Cardinals
 6:00pm
-HSBC Women's World Championship 2023
-6:25pm
+Akron Zips @ Kent State Golden Flashes
+6:00pm
+Campbell Fighting Camels @ Longwood Lancers
+6:00pm
 VIEW ALL SPORTS
 Email us
 Live Chat
@@ -303,7 +287,7 @@ Responsible Gaming. Gambling problem? Call 1-800-589-9966.
 Sports gaming is provided in partnership with Youngstown Real Estate Ventures, LLC d/b/a Hollywood Gaming at Mahoning Valley Race Course.
 Licensed and regulated by Ohio Casino Control Commission
 Copyright © 2023 - PointsBet Ohio LLC. All rights reserved.
-Server Time: 03/01/2023 4:19PM EST
+Server Time: 03/03/2023 3:41PM EST
 Language:
 ENGLISH
 ESPAÑOL

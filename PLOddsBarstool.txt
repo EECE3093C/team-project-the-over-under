@@ -25,96 +25,96 @@ chevron_left
 England
 PREMIER LEAGUE
 Upcoming
-20
+22
 Live
-2
 Futures
+3
 BETTING STATS AND TRENDS
 MONEYLINE
-SAT, MAR 4, 7:30 AM
+TOMORROW, 7:30 AM
 Man City
 Newcastle United
 Man City
--245
+-205
 Newcastle United
-+650
++575
 Draw
-+400
++350
 More
 Bets
-SAT, MAR 4, 10:00 AM
+TOMORROW, 10:00 AM
 Arsenal
 Bournemouth
 Arsenal
 -480
 Bournemouth
-+1300
++1400
 Draw
-+600
++575
 More
 Bets
-SAT, MAR 4, 10:00 AM
+TOMORROW, 10:00 AM
 Aston Villa
 Crystal Palace
 Aston Villa
-+102
++108
 Crystal Palace
-+295
-Draw
-+235
-More
-Bets
-SAT, MAR 4, 10:00 AM
-Brighton
-West Ham
-Brighton
--125
-West Ham
-+340
-Draw
 +290
+Draw
++225
 More
 Bets
-SAT, MAR 4, 10:00 AM
+TOMORROW, 10:00 AM
+Brighton
+West Ham
+Brighton
+-136
+West Ham
++380
+Draw
++285
+More
+Bets
+TOMORROW, 10:00 AM
 Chelsea
 Leeds United
 Chelsea
--159
+-162
 Leeds United
 +460
 Draw
-+300
++310
 More
 Bets
-SAT, MAR 4, 10:00 AM
+TOMORROW, 10:00 AM
 Wolves
 Tottenham
 Wolves
-+235
-Tottenham
-+123
-Draw
 +240
+Tottenham
++125
+Draw
++230
 More
 Bets
-SAT, MAR 4, 12:30 PM
+TOMORROW, 12:30 PM
 Southampton
 Leicester City
 Southampton
-+175
++188
 Leicester City
-+165
++155
 Draw
-+235
++230
 More
 Bets
 SUN, MAR 5, 9:00 AM
 Nottingham Forest
 Everton
 Nottingham Forest
-+170
++163
 Everton
-+188
++195
 Draw
 +210
 More
@@ -123,22 +123,22 @@ SUN, MAR 5, 11:30 AM
 Liverpool
 Man United
 Liverpool
-+150
++138
 Man United
-+170
++190
 Draw
-+265
++260
 More
 Bets
 MON, MAR 6, 3:00 PM
 Brentford
 Fulham
 Brentford
-+100
+-104
 Fulham
-+260
-Draw
 +280
+Draw
++270
 More
 Bets
 SAT, MAR 11, 7:30 AM
@@ -147,9 +147,9 @@ Liverpool
 Bournemouth
 +525
 Liverpool
--210
+-215
 Draw
-+380
++390
 More
 Bets
 SAT, MAR 11, 10:00 AM
@@ -189,22 +189,22 @@ SAT, MAR 11, 10:00 AM
 Tottenham
 Nottingham Forest
 Tottenham
--200
+-225
 Nottingham Forest
-+540
++600
 Draw
-+350
++375
 More
 Bets
 SAT, MAR 11, 12:30 PM
 Crystal Palace
 Man City
 Crystal Palace
-+750
++850
 Man City
--278
+-305
 Draw
-+420
++440
 More
 Bets
 SUN, MAR 12, 10:00 AM
@@ -226,7 +226,7 @@ Man United
 Southampton
 +700
 Draw
-+440
++420
 More
 Bets
 SUN, MAR 12, 10:00 AM
@@ -244,11 +244,33 @@ SUN, MAR 12, 12:30 PM
 Newcastle United
 Wolves
 Newcastle United
--129
+-134
 Wolves
-+360
++375
 Draw
-+280
++285
+More
+Bets
+WED, MAR 15, 3:30 PM
+Brighton
+Crystal Palace
+Brighton
+-159
+Crystal Palace
++440
+Draw
++310
+More
+Bets
+WED, MAR 15, 3:30 PM
+Southampton
+Brentford
+Southampton
++155
+Brentford
++170
+Draw
++255
 More
 Bets
 COMPANY INFORMATION
