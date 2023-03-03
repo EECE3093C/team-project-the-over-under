@@ -1,7 +1,6 @@
 # Imports
 from selenium import webdriver
 import time
-import re
 
 # Variables for each websites PL odds
 DraftKings = "https://sportsbook.draftkings.com/leagues/soccer/england---premier-league"
