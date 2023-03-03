@@ -1,7 +1,6 @@
 # Imports
 from selenium import webdriver
 import time
-import re
 
 # Variables for each websites PL odds
 DraftKings = "https://sportsbook.draftkings.com/leagues/soccer/england---premier-league"
@@ -27,7 +26,7 @@ webpage = driver.find_element("tag name", "html")
 print(webpage.text)
 
 # Action of creating a new text file and writing what the terminal prints inside
-Parsefile = open('PLOddsDraftKings.txt', 'w')
+Parsefile = open('data/PLOddsDraftKings.txt', 'w')
 Parsefile.writelines("DRAFTKINGS PREMIER LEAGUE MONEYLINE ODDS \n")
 scrapedList = str(webpage.text.encode())[2:-1].split("\\n")
 for item in scrapedList:
@@ -44,7 +43,7 @@ print(driver.title)
 webpage = driver.find_element("tag name", "html")
 print(webpage.text)
 
-Parsefile = open('PLOddsFanDuel.txt', 'w')
+Parsefile = open('data/PLOddsFanDuel.txt', 'w')
 Parsefile.writelines("FANDUEL PREMIER LEAGUE MONEYLINE ODDS \n")
 Parsefile.writelines(webpage.text)
 
@@ -57,7 +56,7 @@ print(driver.title)
 webpage = driver.find_element("tag name", "html")
 print(webpage.text)
 
-Parsefile = open('PLOddsBarstool.txt', 'w')
+Parsefile = open('data/PLOddsBarstool.txt', 'w')
 Parsefile.writelines("BARSTOOL PREMIER LEAGUE MONEYLINE ODDS \n")
 scrapedList = str(webpage.text.encode())[2:-1].split("\\n")
 for item in scrapedList:
@@ -72,7 +71,7 @@ print(driver.title)
 webpage = driver.find_element("tag name", "html")
 print(webpage.text)
 
-Parsefile = open('PLOddsBetMGM.txt', 'w')
+Parsefile = open('data/PLOddsBetMGM.txt', 'w')
 Parsefile.writelines("BETMGM PREMIER LEAGUE MONEYLINE ODDS \n")
 Parsefile.writelines(webpage.text)
 
@@ -85,7 +84,7 @@ print(driver.title)
 webpage = driver.find_element("tag name", "html")
 print(webpage.text)
 
-Parsefile = open('PLOddsPointsBet.txt', 'w')
+Parsefile = open('data/PLOddsPointsBet.txt', 'w')
 Parsefile.writelines("POINTSBET PREMIER LEAGUE MONEYLINE ODDS \n")
 Parsefile.writelines(webpage.text)
 driver.close()
