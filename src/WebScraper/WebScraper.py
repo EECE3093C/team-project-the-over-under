@@ -6,7 +6,7 @@ import time
 DraftKings = "https://sportsbook.draftkings.com/leagues/soccer/england---premier-league"
 Fanduel = "https://sportsbook.fanduel.com/soccer?tab=epl"
 Barstool = "https://www.barstoolsportsbook.com/sports/football/england/premier_league?category=upcoming"
-BetMGM = "https://sports.oh.betmgm.com/en/sports/soccer-4/betting/england-14"
+BetMGM = "https://sports.oh.betmgm.com/en/sports/soccer-4/betting/england-14/premier-league-102841"
 PointsBet = "https://oh.pointsbet.com/sports/soccer/English-Premier-League"
 
 # Open Draftkings
