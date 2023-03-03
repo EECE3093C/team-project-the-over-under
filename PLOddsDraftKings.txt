@@ -16,59 +16,47 @@ Pools
 Social
 Dynasty
 Log In
+A-Z Sports
 Sportsbook / Soccer Odds / English Premier League Odds
 GAME LINES
 QUICK SGP
-LIVE PROPS
 GOALSCORER PROPS
+SHOTS/ASSISTS PROPS
+PLAYER PARLAYS
 GAME PROPS
 GAME PARLAYS
 TEAM PROPS
 CORNERS
-SPREAD/TOTAL
-HALVES
 MONEYLINE (REGULAR TIME)
 DRAW NO BET (REGULAR TIME)
 TOTAL GOALS (REGULAR TIME)
 SPREAD (REGULAR TIME)
-Liverpool vs Wolves
-88:372ND HALF
-Liverpool
-2
-Wolves
-0
-Liverpool
--1200
-Draw
-+5000
-Wolves
-+5500
 Man City vs Newcastle
-SAT 4TH MAR 7:30AM
+TOMORROW 7:30AM
 Man City
--230
+-205
 Draw
-+400
++350
 Newcastle
 +550
 Arsenal vs Bournemouth
-SAT 4TH MAR 10:00AM
+TOMORROW 10:00AM
 Arsenal
 -425
 Draw
 +600
 Bournemouth
-+1000
++1200
 Wolves vs Tottenham
-SAT 4TH MAR 10:00AM
+TOMORROW 10:00AM
 Wolves
 +225
 Draw
-+250
++235
 Tottenham
-+125
++130
 Chelsea vs Leeds
-SAT 4TH MAR 10:00AM
+TOMORROW 10:00AM
 Chelsea
 -160
 Draw
@@ -76,29 +64,29 @@ Draw
 Leeds
 +450
 Brighton vs West Ham
-SAT 4TH MAR 10:00AM
+TOMORROW 10:00AM
 Brighton
--125
+-130
 Draw
 +290
 West Ham
-+330
++350
 Aston Villa vs Crystal Palace
-SAT 4TH MAR 10:00AM
+TOMORROW 10:00AM
 Aston Villa
 +105
 Draw
-+245
++235
 Crystal Palace
-+280
++285
 Southampton vs Leicester
-SAT 4TH MAR 12:30PM
+TOMORROW 12:30PM
 Southampton
-+175
++180
 Draw
 +235
 Leicester
-+170
++160
 Nottingham Forest vs Everton
 SUN 5TH MAR 9:00AM
 Nottingham Forest
@@ -106,71 +94,71 @@ Nottingham Forest
 Draw
 +205
 Everton
-+180
++190
 Liverpool vs Man Utd
 SUN 5TH MAR 11:30AM
 Liverpool
-+145
++135
 Draw
-+260
++270
 Man Utd
-+175
++185
 Brentford vs Fulham
 MON 6TH MAR 3:00PM
 Brentford
 +100
 Draw
-+270
++275
 Fulham
-+250
++265
 Bournemouth vs Liverpool
 SAT 11TH MAR 7:30AM
 Bournemouth
 +500
 Draw
-+370
++380
 Liverpool
--220
+-215
 Tottenham vs Nottingham Forest
 SAT 11TH MAR 10:00AM
 Tottenham
--215
+-210
 Draw
 +350
 Nottingham Forest
 +550
-Leeds vs Brighton
+Leicester vs Chelsea
 SAT 11TH MAR 10:00AM
-Leeds
-+230
+Leicester
++285
 Draw
-+250
-Brighton
-+110
++260
+Chelsea
+-105
 Everton vs Brentford
 SAT 11TH MAR 10:00AM
 Everton
-+165
++170
 Draw
 +215
 Brentford
 +175
-Leicester vs Chelsea
+Leeds vs Brighton
 SAT 11TH MAR 10:00AM
-Leicester
-+280
+Leeds
++235
 Draw
 +255
-Chelsea
--110
+Brighton
++110
 Crystal Palace vs Man City
 SAT 11TH MAR 12:30PM
 Crystal Palace
 +750
 Draw
-+425
++450
 Man City
--310
+-300
 Man Utd vs Southampton
 SUN 12TH MAR 10:00AM
 Man Utd
@@ -276,7 +264,7 @@ Soho, London
 W1F OJH
 If you or someone you know has a gambling problem and wants help, call 1-800-GAMBLER. 21+. Physically present in OH. Subject to regulatory licensing requirements.
 \xc2\xa9 2012-2023 DraftKings All Rights Reserved.
-Server Time: 03/01/2023 4:48:31 p.m.
+Server Time: 03/03/2023 3:40:30 p.m.
 Icon representing an X shape
 Welcome!
 New to Sports Betting? Click for some helpful tips before you get started!

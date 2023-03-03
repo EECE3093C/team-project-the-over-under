@@ -1,13 +1,13 @@
 import re
 
-file = open("PLOddsPointsBet.txt")
+file = open("PLOddsBarstool.txt")
 lines = file.readlines()
 index = 0
 current = 0
 naughtindex = []
 
 for i in lines:
-    if current + 2 < index and re.search("Draw", i) != None:
+    if current + 2 < index and re.search("^([+]|[-])", i) != None:
         current = index
         naughtindex.append(index)
         
