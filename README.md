@@ -43,7 +43,7 @@ We are trying to mitigate these challenges by focusing on setting realistic goal
 ## List of Sportsbooks
 1. [DraftKings](https://sportsbook.draftkings.com/)
 2. [FanDuel](https://sportsbook.fanduel.com/)
-3. [Bet365](https://www.oh.bet365.com/)
+3. [Barstool](https://www.barstoolsportsbook.com/)
 4. [PointsBet](https://oh.pointsbet.com/)
 5. [BetMGM](https://sports.oh.betmgm.com/)
 
