@@ -3,28 +3,35 @@
 erDiagram
   sportsbooks ||--|{ moneylines : offer
   sportsbooks {
-    string sportsbook PK
+    string sportsbook PK "Natural key"
     string url
   }
   
-  moneylines {
-    int moneyline PK
-    int odds
-    string contestant FK
-    string sportsbook FK
-  }
-  
-  competitions ||--|{ contestants : host
+  competitions ||--o{ matchups : host
   competitions {
-    string competition PK
+    string competition PK "Natural key"
   }
   
-  contestants ||--o{ moneylines : cause
+  contestants ||--o| matchups : participate
   contestants {
-    string contestant PK
-    string form
-    string opponent
+    string contestant PK "Natural key"
+    string form "Last 5 results as characters W, L, D"
+  }
+  
+  matchups ||--|{ moneylines : decide
+  matchups {
+    int matchup PK "Auto generated identifer"
+    string home FK
+    string away FK
     string competition FK
+  }
+  
+  moneylines {
+    int moneyline PK "Auto generated identifer"
+    int odds
+    char type "H (home), A (away), D (draw)"
+    int matchup FK
+    string sportsbook FK
   }
 
 ```
