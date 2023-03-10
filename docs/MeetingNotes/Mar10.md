@@ -1,4 +1,4 @@
-# March 10 Meeting
+# Mar 10 Meeting Notes
 
 Series: Friday General
 
